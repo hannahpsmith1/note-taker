@@ -25,9 +25,10 @@
     "url": "https://github.com/hannahpsmith1/note-taker/issues"
   },
   "homepage": "https://github.com/hannahpsmith1/note-taker#readme"
-},
-{
-  "engines": {
-    "node": "12.18.2"
-  }
 }
+// ,
+// {
+//   "engines": {
+//     "node": "12.18.2"
+//   }
+// }

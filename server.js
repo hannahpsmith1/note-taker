@@ -20,6 +20,10 @@ app.get("/api/notes", function(req, res) {
     res.json(db);
   });
 
+  // css //
+app.get("/styles", function(req, res) {
+    res.sendFile(path.join(__dirname, "../public/css/styles.css"));
+  });
 
 // app.get("/assets/js/index", function(req, res) {
 //     res.sendFile(path.join(__dirname, "assets", "js", "index.js"));
