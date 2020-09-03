@@ -1,3 +1,6 @@
+//= require jquery
+//= require jquery_ujs
+
 var $noteTitle = $(".note-title");
 var $noteText = $(".note-textarea");
 var $saveNoteBtn = $(".save-note");
