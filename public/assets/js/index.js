@@ -114,9 +114,8 @@ var renderNoteList = function(notes) {
 
     var $li = $("<li class='list-group-item'>").data(note);
     var $span = $("<span>").text(note.title);
-    var $delBtn = $(
-      "<i class='fas fa-trash-alt float-right text-danger delete-note'>"
-    );
+    // dynamically generating a delete button for the note
+    var $delBtn = $("<i class='fas fa-trash-alt float-right text-danger delete-note'>");
 
     $li.append($span, $delBtn);
     noteListItems.push($li);
@@ -124,6 +123,7 @@ var renderNoteList = function(notes) {
 
   $noteList.append(noteListItems);
 };
+
 
 // Gets notes from the db and renders them to the sidebar
 var getAndRenderNotes = function() {
