@@ -1,17 +1,15 @@
 # Note-Taker
-
+The ability to take notes and save to local storage without losing any notes.  
 
 ## Project Description 
 Working with 
 
 ## Deployed Link
-[Deployed Link]((insert link here))  
-[Author's Github](https://wwww.github.com/hannahpsmith1)
+[Deployed Link](https://afternoon-stream-18019.herokuapp.com/notes)
 
 ## Deployed Gif
-********* This is an addition post README to add video as part of the requirement
 
-![Demo gif](https://user-images.githubusercontent.com/59800839/87213289-bb573300-c2d8-11ea-8d05-d65a9c320f5b.gif)
+![Demo gif](https://media.giphy.com/media/WOBlm3sab2wr2cZLGK/giphy.gif)
 
 
 
