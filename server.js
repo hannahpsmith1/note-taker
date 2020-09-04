@@ -5,7 +5,7 @@ var express = require("express");
 // var fs = require ("fs");
 
 var app = express();
-var PORT = 3002 || process.env.PORT ;
+var PORT = process.env.PORT || 3002;
 app.use(express.static("public"))
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
@@ -14,5 +14,5 @@ require("./routes/htmlRoutes")(app);
 
 
 app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
+    console.log("App listening on PORT " + PORT);
+  });
